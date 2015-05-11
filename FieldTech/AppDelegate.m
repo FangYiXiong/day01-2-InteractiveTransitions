@@ -53,6 +53,12 @@
     return animationController;
 }
 
+- (id <UIViewControllerInteractiveTransitioning>)navigationController:(UINavigationController *)navigationController
+                          interactionControllerForAnimationController:(id <UIViewControllerAnimatedTransitioning>) animationController{
+    NSLog(@"询问有没有一个交互控制器 interaction controller");
+    return nil;
+}
+
 #pragma mark - UIViewControllerAnimatedTransitioning
 
 // 返回转场动画应该持续多长时间（以秒为单位）
