@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32F3218C1B0133D2005F9D5F /* PinchTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F3218B1B0133D2005F9D5F /* PinchTransition.m */; };
 		B80087B918C5B3C2004C3152 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B80087B818C5B3C2004C3152 /* TableViewController.m */; };
 		B8CF58BF18C39C1A00D7DFED /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CF58BC18C39C1A00D7DFED /* ModalViewController.m */; };
 		B8CF58C018C39C1A00D7DFED /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CF58BE18C39C1A00D7DFED /* ThirdViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32F3218A1B0133D2005F9D5F /* PinchTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchTransition.h; sourceTree = "<group>"; };
+		32F3218B1B0133D2005F9D5F /* PinchTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchTransition.m; sourceTree = "<group>"; };
 		B80087B718C5B3C2004C3152 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		B80087B818C5B3C2004C3152 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		B8CF58BB18C39C1A00D7DFED /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 			children = (
 				CE9D8C6C1879D9E100B2CF4C /* SplitTransition.h */,
 				CE9D8C6D1879D9E100B2CF4C /* SplitTransition.m */,
+				32F3218A1B0133D2005F9D5F /* PinchTransition.h */,
+				32F3218B1B0133D2005F9D5F /* PinchTransition.m */,
 			);
 			name = "Custom Transitions";
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 			files = (
 				CE9D8C411879BEB400B2CF4C /* main.m in Sources */,
 				CE9D8C4E1879BEB400B2CF4C /* SecondViewController.m in Sources */,
+				32F3218C1B0133D2005F9D5F /* PinchTransition.m in Sources */,
 				CE9D8C4B1879BEB400B2CF4C /* FirstViewController.m in Sources */,
 				CE9D8C451879BEB400B2CF4C /* AppDelegate.m in Sources */,
 				B80087B918C5B3C2004C3152 /* TableViewController.m in Sources */,

@@ -59,6 +59,16 @@
     return nil;
 }
 
+- (void)navigationController:(UINavigationController *)navigationController
+       didShowViewController:(UIViewController *)viewController
+                    animated:(BOOL)animated{
+    if (!self.interactiveTransition) {
+        self.interactiveTransition = [PinchTransition new];
+    }
+    [self.interactiveTransition addInteractionToViewController:viewController];
+}
+
+
 #pragma mark - UIViewControllerAnimatedTransitioning
 
 // 返回转场动画应该持续多长时间（以秒为单位）
